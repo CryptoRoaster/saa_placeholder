@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Hero() {
   return (
     <>
@@ -19,6 +21,17 @@ export function Hero() {
                 and celebrities
               </p>
               {/* Upper Buttons */}
+              {/* Upper Buttons */}
+
+              <div className="md:flex md:flex-row justify-center items-center w-full mx-auto space-x-5">
+                <Link href="mailto:info@sellanyad.com">
+                  <button className="px-5 w-full  py-4 rounded-full bg-gradient-to-tr from-blue-500 via-cyan-800 to-purple-700">
+                    <span className="text-white uppercase font-medium">
+                      contact
+                    </span>
+                  </button>
+                </Link>
+              </div>
             </div>
             {/* Hero right */}
             <div className="w-full md:w-1/2">
