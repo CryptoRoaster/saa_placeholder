@@ -7,6 +7,9 @@ export function Hero() {
             {/* Hero Left */}
             {/* @todo Text */}
             <div className="mt-10 mb-15 space-y-5 text-xl items-center md:w-1/2">
+              <div className="w-full flex flex-col md:w-1/2">
+                <img src="images/logo.svg" alt="" />
+              </div>
               <h3 className="text-2xl font-bold bg-clip-text text-transparent capitalize bg-gradient-to-tr from-blue-700  via-red-500 to-orange-400 text-left md:text-4xl">
                 Grow your business with us
               </h3>
@@ -16,46 +19,10 @@ export function Hero() {
                 and celebrities
               </p>
               {/* Upper Buttons */}
-
-              <div className="hidden md:flex md:flex-row justify-center items-center w-full mx-auto space-x-5">
-                <button className="w-full px-5 py-4 rounded-full bg-gradient-to-tr from-blue-500 via-cyan-800 to-purple-700">
-                  <span className="text-white uppercase font-medium">
-                    about us
-                  </span>
-                </button>
-                <button className="px-5 w-full  py-4 rounded-full bg-gradient-to-tr from-blue-500 via-cyan-800 to-purple-700">
-                  <span className="text-white uppercase font-medium">
-                    contact
-                  </span>
-                </button>
-              </div>
-              <div className="flex flex-col justify-center w-full space-y-4 text-xl md:hidden">
-                <button className="px-5 py-4 rounded-full bg-gradient-to-tr from-blue-500 via-cyan-800 to-purple-700">
-                  <span className="text-white  font-medium">
-                    get to know us
-                  </span>
-                </button>
-                <button className="px-5 py-4 rounded-full bg-gradient-to-tr from-blue-500 via-cyan-800 to-purple-700">
-                  <span className="text-white  font-medium">contact </span>
-                </button>
-              </div>
-              {/* Lower Buttons */}
-              <div className="flex flex-row justify-center items-center mx-auto space-x-2 md:space-x-5 px-5 md:px-0">
-                <img
-                  src="images/appstore.svg"
-                  alt=""
-                  className="w-[55%] md:w-[50%]"
-                />
-                <img
-                  src="images/googleplay.svg"
-                  alt=""
-                  className="w-[55%] md:w-[50%]"
-                />
-              </div>
             </div>
             {/* Hero right */}
             <div className="w-full md:w-1/2">
-              <img src="images/hero.svg" alt="" />
+              <img src="images/app-2.svg" alt="" />
             </div>
           </div>
         </div>
